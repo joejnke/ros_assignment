@@ -1,0 +1,7 @@
+<launch>
+  <!-- Turtlesim Node-->
+  <node pkg="turtlesim" type="turtlesim_node" name="sim"/>
+  <node pkg="learning_tf" type="turtle_controller.py" name="teleop" output="screen"/>
+<!--  <node pkg="learning_tf" type="joystick.py" name="joystick_teleop" /> -->
+
+</launch>
